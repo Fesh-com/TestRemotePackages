@@ -1,7 +1,7 @@
 # TestRemotePackages
-Sample Xcode project to test the SymLog package
+Sample Xcode project to include the FaultyPackage package
 
-In Xcode, set a breakpoint in line 61 in SymLogV.swift    print(String(repeating...
+In Xcode, set a breakpoint in line 11 in FaultyPackage.swift
 
 Run in the Simulator with breakpoints enabled/active.
 

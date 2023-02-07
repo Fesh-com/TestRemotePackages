@@ -11,7 +11,7 @@
 		4ED0703B298658BB00653A1E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED0703A298658BB00653A1E /* ContentView.swift */; };
 		4ED0703D298658BC00653A1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ED0703C298658BC00653A1E /* Assets.xcassets */; };
 		4ED07040298658BC00653A1E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ED0703F298658BC00653A1E /* Preview Assets.xcassets */; };
-		4ED07064298658F700653A1E /* SymLog in Frameworks */ = {isa = PBXBuildFile; productRef = 4ED07063298658F700653A1E /* SymLog */; };
+		4ED07064298658F700653A1E /* FaultyPackage in Frameworks */ = {isa = PBXBuildFile; productRef = 4ED07063298658F700653A1E /* FaultyPackage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4ED07064298658F700653A1E /* SymLog in Frameworks */,
+				4ED07064298658F700653A1E /* FaultyPackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +86,7 @@
 			);
 			name = TestRemotePackages;
 			packageProductDependencies = (
-				4ED07063298658F700653A1E /* SymLog */,
+				4ED07063298658F700653A1E /* FaultyPackage */,
 			);
 			productName = TestRemotePackages;
 			productReference = 4ED07035298658BB00653A1E /* TestRemotePackages.app */;
@@ -117,7 +117,7 @@
 			);
 			mainGroup = 4ED0702C298658BB00653A1E;
 			packageReferences = (
-				4ED07062298658F700653A1E /* XCRemoteSwiftPackageReference "SymLog" */,
+				4ED07062298658F700653A1E /* XCRemoteSwiftPackageReference "FaultyPackage" */,
 			);
 			productRefGroup = 4ED07036298658BB00653A1E /* Products */;
 			projectDirPath = "";
@@ -347,9 +347,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		4ED07062298658F700653A1E /* XCRemoteSwiftPackageReference "SymLog" */ = {
+		4ED07062298658F700653A1E /* XCRemoteSwiftPackageReference "FaultyPackage" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Fesh-com/SymLog";
+			repositoryURL = "https://github.com/Fesh-com/FaultyPackage";
 			requirement = {
 				branch = main;
 				kind = branch;
@@ -358,10 +358,10 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		4ED07063298658F700653A1E /* SymLog */ = {
+		4ED07063298658F700653A1E /* FaultyPackage */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 4ED07062298658F700653A1E /* XCRemoteSwiftPackageReference "SymLog" */;
-			productName = SymLog;
+			package = 4ED07062298658F700653A1E /* XCRemoteSwiftPackageReference "FaultyPackage" */;
+			productName = FaultyPackage;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

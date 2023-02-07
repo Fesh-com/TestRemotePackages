@@ -6,19 +6,19 @@
 //
 
 import SwiftUI
-import SymLog
+import FaultyPackage
 
 struct ContentView: View {
-    var symLog = SymLogV()
+    var faultyPackage = FaultyPackage()
     var body: some View {
-        symLog { VStack {
+        VStack {
+            let _ = faultyPackage.tryToDebug("debug data")
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
             Text("Hello, world!")
         }
             .padding()
-        }
     }
 }
 
